@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Intel Sustainability Roadmap</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-top">
+        <!-- Replace src with your actual Intel logo filename/path -->
+        <img class="logo" src="intel-logo.png" alt="Intel logo" />
+
+        <nav class="hero-nav" aria-label="Primary">
+          <a href="#roadmap" class="nav-link">Roadmap</a>
+          <a href="#milestones" class="nav-link">Milestones</a>
+        </nav>
+      </div>
+
+      <div class="hero-content">
+        <h1>Building a more sustainable future</h1>
+        <p>
+          A product-style roadmap of key sustainability milestones—interactive, responsive,
+          and optimized for desktop and mobile.
+        </p>
+
+        <div class="hero-chips" aria-label="Key themes">
+          <span class="chip">Net-zero</span>
+          <span class="chip">Water</span>
+          <span class="chip">Waste</span>
+          <span class="chip">Supply chain</span>
+        </div>
+
+        <a class="hero-cta" href="#milestones">Explore milestones →</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- TIMELINE -->
+  <main class="page">
+    <section class="timeline" id="milestones" aria-labelledby="timeline-title">
+      <div class="timeline-head">
+        <div>
+          <h2 id="timeline-title">Sustainability Roadmap Timeline</h2>
+          <p class="timeline-sub">
+            Scroll horizontally on larger screens. On mobile, milestones stack vertically and expand on tap.
+          </p>
+        </div>
+
+        <!-- Optional: purely visual filter chips (no JS needed) -->
+        <div class="filters" aria-label="Category filters">
+          <span class="filter is-active">All</span>
+          <span class="filter">Energy</span>
+          <span class="filter">Water</span>
+          <span class="filter">Waste</span>
+          <span class="filter">Supply</span>
+        </div>
+      </div>
+
+      <!-- Horizontal scroll container (desktop/tablet) -->
+      <div class="timeline-viewport" role="region" aria-label="Milestones timeline" tabindex="0">
+        <div class="timeline-track" id="roadmap">
+          <!-- CARD 1 -->
+          <article class="card cat-energy">
+            <div class="thumb">
+              <img src="images/renewables.jpg" alt="Renewable energy visual" />
+            </div>
+
+            <div class="card-top">
+              <span class="year">2025</span>
+              <span class="status status-progress">In progress</span>
+            </div>
+
+            <h3 class="title">100% Renewable Electricity</h3>
+            <p class="summary">Power operations with renewable electricity and expand clean energy coverage.</p>
+
+            <div class="meta">
+              <span class="tag">Energy</span>
+              <span class="tag">Operations</span>
+              <span class="tag">Target</span>
+            </div>
+
+            <div class="details">
+              <ul>
+                <li>Expand renewable sourcing and contracts.</li>
+                <li>Improve efficiency to reduce overall demand.</li>
+                <li>Track progress with transparent reporting.</li>
+              </ul>
+              <a class="learn" href="#">Learn more →</a>
+            </div>
+          </article>
+
+          <!-- CARD 2 -->
+          <article class="card cat-water">
+            <div class="thumb">
+              <img src="images/water.jpg" alt="Water stewardship visual" />
+            </div>
+
+            <div class="card-top">
+              <span class="year">2030</span>
+              <span class="status status-planned">Planned</span>
+            </div>
+
+            <h3 class="title">Water Positive</h3>
+            <p class="summary">Restore more water than used through conservation and watershed projects.</p>
+
+            <div class="meta">
+              <span class="tag">Water</span>
+              <span class="tag">Sites</span>
+              <span class="tag">Watersheds</span>
+            </div>
+
+            <div class="details">
+              <ul>
+                <li>Reduce water use per unit of production.</li>
+                <li>Invest in local restoration initiatives.</li>
+                <li>Measure impact with partner validation.</li>
+              </ul>
+              <a class="learn" href="#">Learn more →</a>
+            </div>
+          </article>
+
+          <!-- CARD 3 -->
+          <article class="card cat-waste">
+            <div class="thumb">
+              <img src="images/waste.jpg" alt="Circular economy visual" />
+            </div>
+
+            <div class="card-top">
+              <span class="year">2040</span>
+              <span class="status status-goal">Goal</span>
+            </div>
+
+            <h3 class="title">Zero Waste to Landfill</h3>
+            <p class="summary">Advance circular practices to minimize landfill-bound waste.</p>
+
+            <div class="meta">
+              <span class="tag">Waste</span>
+              <span class="tag">Circularity</span>
+              <span class="tag">Policy</span>
+            </div>
+
+            <div class="details">
+              <ul>
+                <li>Increase reuse, recycling, and material recovery.</li>
+                <li>Work with vendors on sustainable packaging.</li>
+                <li>Set site-level waste diversion targets.</li>
+              </ul>
+              <a class="learn" href="#">Learn more →</a>
+            </div>
+          </article>
+
+          <!-- CARD 4 -->
+          <article class="card cat-supply">
+            <div class="thumb">
+              <img src="images/supply.jpg" alt="Sustainable supply chain visual" />
+            </div>
+
+            <div class="card-top">
+              <span class="year">2030</span>
+              <span class="status status-progress">In progress</span>
+            </div>
+
+            <h3 class="title">Responsible Supply Chain</h3>
+            <p class="summary">Improve supplier transparency and reduce emissions across the value chain.</p>
+
+            <div class="meta">
+              <span class="tag">Supply</span>
+              <span class="tag">Scope 3</span>
+              <span class="tag">Reporting</span>
+            </div>
+
+            <div class="details">
+              <ul>
+                <li>Encourage supplier targets and disclosures.</li>
+                <li>Support cleaner materials and logistics.</li>
+                <li>Audit and verify high-impact categories.</li>
+              </ul>
+              <a class="learn" href="#">Learn more →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Built as a responsive roadmap timeline using HTML, CSS, and Flexbox.</p>
+  </footer>
+
+  <!-- Tap-to-expand script (mobile/touch). Keeps hover behavior on desktop. -->
+  <script>
+  (() => {
+    const root = document.documentElement;
+    const tapMql = window.matchMedia('(hover: none), (pointer: coarse)');
+    const cards = Array.from(document.querySelectorAll('.card'));
+    if (!cards.length) return;
+
+    // Make cards keyboard-focusable
+    cards.forEach(card => {
+      card.tabIndex = 0;
+      card.setAttribute('aria-expanded', 'false');
+    });
+
+    function setTapMode(on) {
+      root.classList.toggle('tap-mode', on);
+      cards.forEach(card => {
+        card.classList.remove('is-open');
+        card.setAttribute('aria-expanded', 'false');
+      });
+    }
+
+    setTapMode(tapMql.matches);
+    tapMql.addEventListener?.('change', e => setTapMode(e.matches));
+
+    function toggleCard(card) {
+      const willOpen = !card.classList.contains('is-open');
+
+      // Close others
+      cards.forEach(c => {
+        c.classList.remove('is-open');
+        c.setAttribute('aria-expanded', 'false');
+      });
+
+      if (willOpen) {
+        card.classList.add('is-open');
+        card.setAttribute('aria-expanded', 'true');
+      }
+    }
+
+    document.addEventListener('click', (e) => {
+      if (!root.classList.contains('tap-mode')) return;
+
+      const card = e.target.closest('.card');
+      if (!card) return;
+
+      // Let links work normally
+      if (e.target.closest('a')) return;
+
+      toggleCard(card);
+    });
+
+    document.addEventListener('keydown', (e) => {
+      const card = document.activeElement?.closest?.('.card');
+      if (!card) return;
+
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        toggleCard(card);
+      }
+    });
+  })();
+  </script>
+</body>
+</html>
