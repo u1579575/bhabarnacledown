@@ -1,5 +1,5 @@
 :root{
-  --intel-blue: #0071c5;
+  --intel-blue: #0b7aa5;
   --bg: #f6f8fb;
   --text: #0b1220;
   --muted: #526070;
@@ -29,7 +29,9 @@ body{
   padding: clamp(24px, 6vw, 72px) 16px;
   background:
     radial-gradient(1200px 600px at 20% 10%, rgba(255,255,255,.18), transparent 60%),
-    linear-gradient(135deg, #003a70 0%, var(--intel-blue) 55%, #00b3ff 120%);
+    linear-gradient(135deg, #06354a 0%, #0b7aa5 55%, #2ee6c6 120%);
+}
+
   position: relative;
   overflow: hidden;
 }
@@ -127,7 +129,7 @@ body{
 }
 
 /* Category colors */
-.cat-ghg::before{ background:#0071c5; }
+.cat-ghg::before{ background:#0b7aa5; }
 .cat-strategy::before{ background:#6a5cff; }
 .cat-netzero::before{ background:#2bb673; }
 .cat-renewable::before{ background:#00a3b4; }
